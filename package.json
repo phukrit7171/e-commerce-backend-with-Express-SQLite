@@ -1,0 +1,44 @@
+{
+  "name": "e-commerce-backend-with-express-sqlite",
+  "version": "0.1.0",
+  "description": "opensource backend of e-commerce website",
+  "main": "./server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phukrit7171/e-commerce-backend-with-Express-SQLite.git"
+  },
+  "keywords": [
+    "web",
+    "website",
+    "e-cemmerce",
+    "api",
+    "backend",
+    "Express"
+  ],
+  "author": "Mr.Phukrit Kittinontana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phukrit7171/e-commerce-backend-with-Express-SQLite/issues"
+  },
+  "homepage": "https://github.com/phukrit7171/e-commerce-backend-with-Express-SQLite#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
